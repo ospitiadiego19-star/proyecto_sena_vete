@@ -1,0 +1,12 @@
+# Ejemplo de variables para Railway Backend
+# Copia-pega esto en Railway Dashboard → Backend → Variables
+
+NODE_ENV=production
+PORT=8080
+JWT_SECRET=a8237e66db9ad07be19fa3cbdb918c7881c85ad4396cc0c61605ccb20a9b593d66a4cc01f5c1dc0d16828613646f990707d896be53c7868d253532f551a21294
+JWT_EXPIRES_IN=8h
+DB_NAME=datavet
+
+# DATABASE_URL será generado automáticamente por Railway cuando agregues MySQL
+# No necesitas configurarlo, pero tendrá este formato:
+# DATABASE_URL=mysql://usuario:password@host:3306/datavet
